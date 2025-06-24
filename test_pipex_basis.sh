@@ -26,4 +26,7 @@ else
     echo "❌ Shell comparison FAILED"
 fi
 
+# Cleanup
+rm -f test*.txt out*.txt shell*.txt pipex*.txt
+
 echo "🎉 Tests completed!"
